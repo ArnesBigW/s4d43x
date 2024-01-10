@@ -1,7 +1,0 @@
-@EndUserText.label: 'Flight'
-@MappingRole: true
-define role ZI_10_FLIGHT {
-  grant select on ZI_10_FLIGHT
-  where (CarrierID) = aspect pfcg_auth(S_CARRID, CARRID, ACTVT = '03');
-                        
-}
